@@ -1,6 +1,8 @@
 function Navbar() {
     return (
-        <h1>Navbar</h1>
+        <div className="navbar-box">
+            <span>Meu diário reprograma</span>
+        </div>
     )
 }
 

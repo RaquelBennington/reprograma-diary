@@ -1,6 +1,8 @@
 function Footer() {
     return (
-        <h1>Footer</h1>
+        <div className="footer-container">
+            <span>© Raquel Andrade - 2022. Todos os direitos reservados.</span>
+        </div>
     )
 }
 

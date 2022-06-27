@@ -13,5 +13,109 @@ code {
 }
 
 h1{
-  color: #686aac;
+  margin: 0;
+  color: gray;
+}
+
+/* NAVBAR */
+
+.navbar-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 75px;
+  background: rgba(0, 0, 0, 0) linear-gradient(45deg, rgb(97, 87, 255) 0%, rgb(0, 204, 255) 100%);
+}
+
+.navbar-box span {
+  font-size: 30px;
+  font-family: Helvetica;
+  padding-left: 10px;
+  margin-left: 40px;
+  font-weight: bold;
+  color: rgb(0, 204, 255);
+}
+
+.navbar-list{
+  display: flex;
+  list-style: none;
+}
+
+.navbar-list li {
+  padding-right: 10px;
+  color: white;
+  font-weight: 600;
+  margin-right: 40px;
+}
+
+/* HEADER */
+
+.header-container img {
+  height: 650px;
+  width: 100%;
+}
+
+/* ABOUT */
+
+.about-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+.about-photo {
+  margin-right: 20px;
+  max-height: 190px;
+  border-radius: 100px;
+  border-color: rgb(248, 249, 250);
+  border-style: groove;
+}
+
+h2 {
+  color: rgb(97, 87, 255);
+}
+
+p {
+  color: grey;
+  width: 600px;
+}
+
+hr {
+  width: 900px;
+  color: rgb(0, 204, 255);
+}
+
+/* SECTIONCARDS */
+
+.section-container {
+  height: 898px;
+}
+
+.section-container h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  padding: 16px;
+  color: rgb(97, 87, 255);
+}
+
+.section-container img {
+  width: 200px;
+  margin-left: 1060px;
+  margin-top: 560px;
+}
+
+/* CARDS */
+
+/* FOOTER */
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 75px;
+  color: white;
+  margin-top: 30px;
+  background: rgba(0, 0, 0, 0) linear-gradient(45deg, rgb(97, 87, 255) 0%, rgb(0, 204, 255) 100%);
 }
